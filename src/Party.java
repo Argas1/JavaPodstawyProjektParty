@@ -7,13 +7,13 @@ public class Party {
     Scanner scanner = new Scanner(System.in);
 
     public void addGuest(){
-        System.out.println("Podaj imię gościa :");
+        System.out.println("Podaj imię gościa : ");
         String name = scanner.nextLine();
 
-        System.out.println("Podaj preferowany posiłek :");
+        System.out.println("Podaj preferowany posiłek : ");
         String meal = scanner.nextLine();
 
-        System.out.println("Podaj numer telefonu :");
+        System.out.println("Podaj numer telefonu : ");
         int phoneNumber = Integer.valueOf(scanner.nextLine());
 
         System.out.println("Czy vegan? (Y/N)");
